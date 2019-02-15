@@ -31,7 +31,8 @@ class Route {
     return vertical + horizontal;
   }
 
-  estimatedTime() {
-    const block = 3;
+  estimatedTime(blocks) {
+    const minPerBlock = 3;
+    return blocks * minPerBlock;
   }
 }
