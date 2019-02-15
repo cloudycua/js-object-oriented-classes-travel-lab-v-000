@@ -33,6 +33,7 @@ class Route {
 
   estimatedTime() {
     const minPerBlock = 3;
+    const peakMinPerBlock = 2;
     return this.blocksTravelled() / minPerBlock;
   }
 }
