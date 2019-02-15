@@ -16,6 +16,6 @@ class Route {
   }
 
   blocksTravelled() {
-
+    return Math.abs(beginningLocation - endingLocation);
   }
 }
