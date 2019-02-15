@@ -28,6 +28,6 @@ class Route {
   blocksTravelled() {
     const vertical = Math.abs(this.beginningLocation.vertical - this.endingLocation.vertical);
     const horizontal = Math.abs(eastWest.indexOf(this.beginningLocation) - eastWest.indexOf(this.endingLocation));
-    return vertical + horizonal;
+    return vertical + horizontal;
   }
 }
